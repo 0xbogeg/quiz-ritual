@@ -1,0 +1,13 @@
+QUESTION: Why does the world need another blockchain?
+A: To increase speculation
+B: To unlock net-new user behavior
+C: To replace Bitcoin
+D: To reduce validators
+ANSWER: B
+
+QUESTION: What did Bitcoin introduce in 2009?
+A: NFTs
+B: DAOs
+C: Permissionless money transfer
+D: Smart contracts
+ANSWER: C
