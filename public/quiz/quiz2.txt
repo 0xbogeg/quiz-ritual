@@ -1,0 +1,13 @@
+QUESTION: Ritual focuses primarily on which intersection?
+A: Gaming and NFTs
+B: DeFi and Memecoins
+C: Crypto and Artificial Intelligence
+D: SocialFi
+ANSWER: C
+
+QUESTION: What makes Ritual different?
+A: Faster TPS only
+B: Centralized execution
+C: Expressive heterogeneous compute
+D: Private validators
+ANSWER: C

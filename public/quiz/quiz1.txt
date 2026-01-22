@@ -1,13 +1,134 @@
-QUESTION: Why does the world need another blockchain?
-A: To increase speculation
-B: To unlock net-new user behavior
-C: To replace Bitcoin
-D: To reduce validators
-ANSWER: B
+1. The Ritual Foundation was established as…  
+A. A profit-oriented token management organization  
+B. An independent organization to steward and accelerate the Ritual Chain  
+C. A DAO exclusively for early investors  
+D. A Web2 AI incubator  
 
-QUESTION: What did Bitcoin introduce in 2009?
-A: NFTs
-B: DAOs
-C: Permissionless money transfer
-D: Smart contracts
-ANSWER: C
+Answer: B  
+--------------------------------------------------
+
+2. The main problem in today’s AI industry is…  
+A. Lack of GPUs  
+B. Lack of users  
+C. Centralization, censorship, opacity, and broken capital formation  
+D. Overly strict regulations  
+
+Answer: C  
+--------------------------------------------------
+
+3. Why is crypto suitable as the foundation for AI?  
+A. It is faster than cloud computing  
+B. It is trustless, transparent, and permissionless  
+C. It is cheaper than Web2  
+D. It follows market trends  
+
+Answer: B  
+--------------------------------------------------
+
+4. Many crypto × AI experiments failed because…  
+A. Lack of investors  
+B. Too much complexity  
+C. Infrastructure not designed for AI workloads  
+D. No token model  
+
+Answer: C  
+--------------------------------------------------
+
+5. The main role of the Ritual Foundation for builders is…  
+A. Airdrops  
+B. Governance voting  
+C. Technical, financial, and operational support  
+D. Token price control  
+
+Answer: C  
+--------------------------------------------------
+
+6. The Ritual Foundation’s approach to the ecosystem is…  
+A. Passive  
+B. Marketing-focused  
+C. Grants only  
+D. Hands-on: build, prototype, and incubate  
+
+Answer: D  
+--------------------------------------------------
+
+7. Which of the following is NOT a role of the Foundation?  
+A. Strategic capital  
+B. Product incubation  
+C. Community co-building  
+D. Centralized control over all projects  
+
+Answer: D  
+--------------------------------------------------
+
+8. The Ritual Chain supports…  
+A. Centralized compute  
+B. A single validator  
+C. Heterogeneous compute with an incentivized fee market  
+D. Manual execution  
+
+Answer: C  
+--------------------------------------------------
+
+9. A major problem Ritual aims to solve is…  
+A. Token inflation  
+B. Decentralization of prover markets  
+C. NFT liquidity  
+D. Gas wars  
+
+Answer: B  
+--------------------------------------------------
+
+10. Native provenance primitives enable…  
+A. Wallet tracking  
+B. Faster NFTs  
+C. An IP marketplace for AI-generated content  
+D. Bridging  
+
+Answer: C  
+--------------------------------------------------
+
+11. The vision of the Ritual Foundation goes beyond…  
+A. AI training  
+B. Crypto × AI alone  
+C. Grants  
+D. Validators  
+
+Answer: B  
+--------------------------------------------------
+
+12. The Foundation’s primary focus is…  
+A. Token speculation  
+B. Speed of launch  
+C. Talent, product, and long-term growth  
+D. Short-term profit  
+
+Answer: C  
+--------------------------------------------------
+
+13. The meaning of “you’re still early” is…  
+A. You are not active yet  
+B. There are no users yet  
+C. The ecosystem is still in its early stage  
+D. The token has not launched yet  
+
+Answer: C  
+--------------------------------------------------
+
+14. The Foundation’s view of the future is…  
+A. Waiting for the market  
+B. Following trends  
+C. Letting it happen naturally  
+D. Actively building it  
+
+Answer: D  
+--------------------------------------------------
+
+15. The ultimate goal of all Foundation initiatives is…  
+A. Increasing token price  
+B. A sustainable and innovative ecosystem  
+C. Defeating other chains  
+D. Dominating AI  
+
+Answer: B  
+--------------------------------------------------
