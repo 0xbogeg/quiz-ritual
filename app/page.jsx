@@ -36,8 +36,8 @@ export default function RitualQuiz() {
         return opt?.replace(letter + '.', '').trim();
       });
   
-      const answerLine = lines.find(l => l.startsWith('Jawaban:'));
-      const answerLetter = answerLine?.replace('Jawaban:', '').trim();
+      const answerLine = lines.find(l => l.startsWith('Answer:'));
+      const answerLetter = answerLine?.replace('Answer:', '').trim();
   
       const answerIndex = ['A', 'B', 'C', 'D'].indexOf(answerLetter);
   
