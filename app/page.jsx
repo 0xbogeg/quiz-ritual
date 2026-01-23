@@ -11,6 +11,8 @@ export default function RitualQuiz() {
   const [answers, setAnswers] = useState([]);
   const [discord, setDiscord] = useState('');
   const [role, setRole] = useState('');
+  const [pfpPreview, setPfpPreview] = useState(null);
+
 
   // Logo path dari folder public
   const logoPath = '/logo.png'; // Ganti dengan nama file logo Anda di folder public
@@ -24,7 +26,7 @@ export default function RitualQuiz() {
       const lines = block
         .split('\n')
         .map(l => l.trim())
-        .filter(l => l !== '');
+        .filter(Boolean);
   
       if (lines.length === 0) return null;
   
@@ -36,11 +38,8 @@ export default function RitualQuiz() {
         return opt?.replace(letter + '.', '').trim();
       });
   
-<<<<<<< HEAD
-      const answerLine = lines.find(l => l.startsWith('Answer'));
-=======
+      // ✅ FIX
       const answerLine = lines.find(l => l.startsWith('Answer:'));
->>>>>>> 66d180d798ed0254bcdeb482fa17fc0d1d11f078
       const answerLetter = answerLine?.replace('Answer:', '').trim();
   
       const answerIndex = ['A', 'B', 'C', 'D'].indexOf(answerLetter);
@@ -52,6 +51,7 @@ export default function RitualQuiz() {
       };
     }).filter(Boolean);
   };
+  
 
   const loadQuiz = async () => {
     const res = await fetch('/quiz/quiz1.txt');
@@ -141,6 +141,17 @@ export default function RitualQuiz() {
     );
   };
   
+  const handlePfpUpload = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+  
+    const reader = new FileReader();
+    reader.onload = () => {
+      setPfpPreview(reader.result);
+    };
+    reader.readAsDataURL(file);
+  };
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-900 text-white flex justify-center items-center p-4 sm:p-6">
@@ -201,9 +212,24 @@ export default function RitualQuiz() {
                 </div>
 
                 <div className="space-y-2">
+                      
+
                   <label className="text-xs sm:text-sm font-medium text-emerald-300 flex items-center gap-2">
-                    <span className="text-emerald-400">●</span> Role
+                    <span className="text-emerald-400">●</span> Upload pfp
                   </label>
+
+
+  <input
+    type="file"
+    accept="image/*"
+    onChange={handlePfpUpload}
+    className="w-full p-3 sm:p-4 bg-gray-900/50 border-2 border-emerald-500/30 rounded-xl text-sm"
+  />
+</div>
+<div className="space-y-2">
+  <label className="text-xs sm:text-sm font-medium text-emerald-300 flex items-center gap-2">
+    <span className="text-emerald-400">●</span> Role 
+  </label>
                   <input
                     className="w-full p-3 sm:p-4 bg-gray-900/50 border-2 border-emerald-500/30 rounded-xl focus:outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/50 focus:shadow-lg focus:shadow-emerald-500/20 transition-all text-sm sm:text-base"
                     placeholder=""
@@ -312,6 +338,17 @@ export default function RitualQuiz() {
                 <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider mb-2">
                   This certifies that
                 </p>
+                        
+
+                {pfpPreview && (
+  <div className="flex justify-center mb-4">
+    <img
+      src={pfpPreview}
+      alt="PFP"
+      className="w-24 h-24 rounded-full object-cover border-4 border-emerald-400"
+    />
+  </div>
+)}
 
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-emerald-300 mb-4">
                   {discord}
@@ -393,6 +430,8 @@ export default function RitualQuiz() {
                 setCurrent(0);
                 setDiscord('');
                 setRole('');
+                setPfpPreview(null);
+
               }}
               className="w-full bg-gray-800 hover:bg-gray-700 p-3 sm:p-4 rounded-xl font-semibold transition-all duration-300 border-2 border-gray-700 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20 hover:scale-[1.02] active:scale-95 text-sm sm:text-base"
             >

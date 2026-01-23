@@ -13,13 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
-  title: "quiz ritual ",
-=======
-  title: "Ritual Quiz",
->>>>>>> 66d180d798ed0254bcdeb482fa17fc0d1d11f078
+  title: "quiz ritual",
   description: "-",
 };
+
 
 export default function RootLayout({
   children,
